@@ -1,0 +1,367 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+
+    width: 100%;
+    background-color: rgb(237, 245, 245);
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding:20px 10% 0;
+    
+    box-sizing: border-box;
+  }
+  .parent_content{
+      width: 80%;
+      box-sizing: border-box;
+
+  }
+  .parent_content h1{
+       font-size: 40px;
+        margin-top: 20px;
+
+  }
+
+  .parent_content p{
+       font-size: 18px;
+      /* margin: 25px 0px 30px; */
+      line-height: 1.7;
+      text-align: justify;
+  }
+  .parent_content span{
+      color: blue;
+  }
+
+ .button_1{
+       padding: 15px;
+        background-color: blue;
+       color: white;
+      border: 2px solid transparent;
+        border-radius: 8px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      transition: 0.3s;
+      cursor: pointer;
+       margin:10px ;
+  }
+ .button_1:hover{
+   background-color: white;
+   color: black;
+   border: 2px solid black;
+
+  }
+
+
+  .img_box{
+     height: 300px;
+       width: 300px;
+      padding: 50px;
+     
+
+  }
+  .img_box img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+
+  }
+
+  @media screen and (max-width:600px) {
+      .parent{
+     display: flex;
+     flex-direction: column-reverse;  
+     justify-content: center;
+     align-items: center;  
+     text-align: center;
+    }
+    .parent_content{
+      height: 400px;
+      width: 250px;
+      /* background-color: aqua; */
+      margin: 15px;
+  }
+  .parent_content h1{
+       font-size: 25px;
+        margin-top: 15px;
+
+  }
+  .parent_content p{
+       font-size: 15px;
+      /* margin: 25px 0px 30px; */
+      line-height: 1.7;
+      text-align: justify;
+  }
+  .img_box{
+      height: 250px;
+      width: 250px;
+  }
+  .img_box img{
+      height: 100%;
+      width: 100%;
+  }
+  }
+  .button_1{
+       padding: 10px;
+        background-color: blue;
+       color: white;
+      border: 2px solid transparent;
+        border-radius: 8px;
+      font-size: 15px;
+      /* letter-spacing: 1px; */
+      /* font-weight: 300; */
+      transition: 0.3s;
+      cursor: pointer;
+       margin:10px ;
+  }
+
+  .details{
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 50px;
+    
+    box-sizing: border-box;
+    
+}
+.heading{
+    margin-left: 70px;
+    height: 100px;
+    width: 100%;
+}
+.heading h5{
+    margin-bottom: 10px;
+
+}
+.heading h2{
+    font-size: 40px;
+}
+ .details_card{
+    /* height: 300px; */
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+ }
+.card{
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #f2f2f2;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0px 10px 10px rgba(0,0,0,0.22); 
+    padding: 10px;
+    margin: 15px 15px;
+    
+}
+.card1 h4{
+    margin-top: 30px;
+}
+.card1 p{
+    margin: 30px 0px ;
+}
+
+#icon1{
+font-size: 50px;
+}
+#icon2{
+    font-size: 50px
+}
+#icon3{
+    font-size: 50px;
+}
+#icon4{
+    font-size: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .heading h2{
+        font-size: 30px;
+    }
+    #icon1{
+        font-size: 30px;
+    }
+    #icon2{
+            font-size: 30px
+    }
+    #icon3{
+            font-size: 30px;
+    }
+    #icon4{
+            font-size: 30px;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+}
+
+.about{
+
+    width: 100%;
+    background-color: rgb(237, 245, 245);
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding:20px 10% 0;
+    /* margin-top: 200px; */
+    box-sizing: border-box;
+
+  }
+.about_img{
+    height: 300px;
+       width: 300px;
+      padding: 50px;
+}
+.about_img img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.about_text{
+    width: 80%;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .about{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .about h1{
+        font-size: 25px;
+    }
+    .about p{
+        font-size: 15px;
+        /* margin: 25px 0px 30px; */
+        line-height: 1.7;
+        text-align: justify;
+    }
+    .about_img{
+        height: 250px;
+        width: 250px;
+    }
+    .about_img img{
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:930px) {
+    .about{
+        margin-top: 350px;
+        
+    }
+ 
+
+}
+
+@media screen and (max-width:460px) {
+    .about{
+        margin-top: 1000px;
+    }
+}
+
+.info_from{
+    width: 100%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px 60px;
+
+}
+.heading_from{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.from{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+   
+}
+
+.row{
+    margin: 10px 0px;
+}
+.col{
+    margin: 0px 10px;
+}
+
+
+
+@media screen and (max-width:550px) {
+   
+    .heading_from h1{
+        font-size: 25px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+    .col{
+        margin: 10px 0px;
+    }
+}
+footer{
+    background-color: rgb(237,245,245);
+    box-sizing: border-box;
+    /* display: flex;
+     justify-content: center;
+     align-items: center; */
+}
+.footer_contener{
+     width: 100%;
+     padding: 30px;
+}
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer_icons a{
+    margin: 0px 30px;
+    font-size: 20px;
+    color: black;
+}
+.footer_nav{
+    width: 100%;
+}
+.footer_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.footer_list li{
+    margin:0px 30px; 
+    
+}
+
+.footer_list li:hover{
+    color: rgb(91, 91, 228);
+    border-bottom: 1px solid blue;
+}
+
+@media screen and (max-width:550px){
+    .footer_list{
+        display: block;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .footer_icons a{
+        font-size: 18px;
+    }
+}
